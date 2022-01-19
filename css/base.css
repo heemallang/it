@@ -1,0 +1,13 @@
+/* 굵기) font-width: normal, bold, bolder, light, lighter */
+/* 굵기 수치) font-width: 100, 200, 300, 400, 500, 600, 700, 800 */
+html, body, h1, h2, h3, h4, h5, h6, p, div, form, input, textarea, table, td, th {margin: 0; padding: 0; box-sizing: border-box; }
+h1, h2, h3, h4, h5, h6 {font-weight: inherit;} /*상속받겠다*/
+img {vertical-align: bottom;}
+table {border-collapse: collapse; border-spacing: 0;}
+
+a {color: inherit; text-decoration: none;}
+
+.clear::after {display: block; content:''; clear: both;} /*클리어라는 클래스에 
+/* .clear::after {display: block; content:'';} 를 입력하면 html에서 <div></div>가 만들어 진 것이다. */
+.w100{width: 100%;}
+.mw100 {max-width: 100%;} 

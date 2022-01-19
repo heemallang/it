@@ -1,0 +1,31 @@
+html, body {font-family: 'Noto Sans KR', sans-serif; height: 5000px;}
+
+
+.header-wrapper { background-color: black; color: white; padding: 24px; width: w100; box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+    font-family: 'Noto Sans KR', sans-serif; margin-bottom: 100px;}
+
+main.main-wrapper {width: 1120px; height: 500px; margin: auto;}
+
+    <!-- /*****************************header-wrapper*****************************/ -->
+
+.header-wrapper .navi-wrapper {float: left; margin: 0 auto; padding: 0 20px; font-size: 32px; font-weight: bold; transition: all .3s; font-style: italic;}
+.header-wrapper .navi-wrapper:hover {transform: scale(1.2);}
+.header-wrapper .wrapper .navi-wrap { float: left; margin: 0 auto; }
+.header-wrapper .wrapper .navi-wp { float: left; padding: 12px 30px; width: w100; text-align: center;}
+.header-wrapper .wrapper .navi-wp .navi {margin: 0 40px;}
+.header-wrapper .wrapper .navi-wp .navi:hover {opacity: 50%;}
+.header-wrapper .wrapper .login-wp {float: right;}
+.header-wrapper .wrapper .login { float:right; padding:12px 30px; border-radius: 3%; margin-right: 10px;}
+.header-wrapper .wrapper .login:hover {opacity: 80%; color: white; }
+.login1 {background-color: rgb(177, 233, 255); color: black;}
+.login2 {background-color: rgb(212, 212, 212); color: black;}
+<!-- /*****************************main-wrapper*****************************/ -->
+
+.main-wrapper .wrapper {float: left;}
+.main-wrapper .wrapper .main-contents {text-align: center; font-weight: bold; font-size: 50px; margin-bottom: 30px; }
+.main-wrapper .wrapper .main-content { font-size: 16px; text-align: center; color: #555; margin-bottom: 40px; }
+a.box-project {padding: 50px; }
+.wrapper .box { padding: 10px 64px; font-size: 18px; text-align: center; color: #fff; background-color: #000; border-radius: 3%; margin: 0px 70px;}
+.main-wrapper .imgs {float: right; transition: all .3s;}
+.main-wrapper .imgs:hover { translate: rotate(5);}
+.container-wrapper {margin: 0 auto; float: left;}
